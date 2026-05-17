@@ -6,10 +6,10 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 nome = input("Escreva seu nome para verificar quantas letras tem: ")
 tamanho_nome = len(nome)
 
-if len(nome) < 5:
+if tamanho_nome < 5:
     print('Seu nome tem', tamanho_nome, 'letras.')
     print('Portanto seu nome é curto.') 
-elif len(nome) < 7:
+elif tamanho_nome < 7:
     print('Seu nome tem', tamanho_nome, 'letras.')
     print('Portanto seu nome é normal.')
 else:
